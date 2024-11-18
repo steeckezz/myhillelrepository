@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{D7CE9D82-9BB8-45F6-A16E-3D4BE1FF2E77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar", "Calendar\Calendar.csproj", "{6A61C649-337A-441F-9706-80FD163EB115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7CE9D82-9BB8-45F6-A16E-3D4BE1FF2E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7CE9D82-9BB8-45F6-A16E-3D4BE1FF2E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7CE9D82-9BB8-45F6-A16E-3D4BE1FF2E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7CE9D82-9BB8-45F6-A16E-3D4BE1FF2E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A61C649-337A-441F-9706-80FD163EB115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A61C649-337A-441F-9706-80FD163EB115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A61C649-337A-441F-9706-80FD163EB115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A61C649-337A-441F-9706-80FD163EB115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A198BAC3-C585-4338-9228-B21CB433F642}
+	EndGlobalSection
+EndGlobal
