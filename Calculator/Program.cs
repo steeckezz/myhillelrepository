@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Калькулятор");
+﻿using System.Text;
+
+Console.OutputEncoding = Encoding.UTF8;
+
+Console.WriteLine("Калькулятор");
 
 Console.WriteLine("Введіть перше ціле число");
 int firstNum = Convert.ToInt32(Console.ReadLine());
@@ -24,8 +28,15 @@ switch (operation)
         Console.WriteLine($"Добутком {firstNum} і {secondNum} є {result3}");
         break;
     case 4:
-        int result4 = firstNum / secondNum;
-        Console.WriteLine($"При діленні {firstNum} на {secondNum} результат {result4}");
+        try
+        {
+            int result4 = firstNum / secondNum;
+            Console.WriteLine($"При діленні {firstNum} на {secondNum} результат {result4}");
+        }
+        catch
+        {
+            Console.WriteLine("Ділення на нуть неможливе"); // Це напевно єдиний можливий exception саме тут
+        }
         break;
     default:
         Console.WriteLine("В функціоналі є лише 4 дії");
