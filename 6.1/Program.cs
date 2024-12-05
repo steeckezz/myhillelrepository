@@ -43,23 +43,25 @@
 
 //Task 3
 
-//using System;
-
 //Console.WriteLine("Enter the number");
 //var input = Console.ReadLine();
 //var number = int.Parse(input);
 
 
-//for (int i = 0; i <= number; i++)
+//for (int i = 2; i < number; i++)
 //{
-//    int j = 2;
-//    while(j <= Math.Sqrt(i))
+//    var isPrime = true;
+//    for(int j = 2; j < i; j++)
 //    {
-//        if (i % j != 0)
+//        if (i % j == 0)
 //        {
-//            Console.WriteLine(i);
+//        isPrime = false;
+//        break;
 //        }
-//        j++;
+//    }
+//    if (isPrime)
+//    {
+//        Console.WriteLine(i);
 //    }
 //}
 
@@ -68,7 +70,39 @@
 
 //Console.WriteLine("Enter the password");
 //var input = Console.ReadLine();
-//var password = int.Parse(input);
+//var containsNum = false;
+//var containsSymbol = false;
+//var enoughLength = input.Length >= 8;
+//var numbers = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+//var symbols = new char[] { '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '/','|', '<', '>', ',', '.', ';', ':', '"', '{', '}', '[', ']' };
+//for (int i = 0; i < input.Length; i++)
+//{
+//    var character = input[i];
+//    foreach (var number in numbers)
+//    {
+//        if (number == character)
+//        {
+//            containsNum = true;
+//            break;
+//        }
+//    }
+//    foreach (var symbol in symbols)
+//    {
+//        if (symbol == character)
+//        {
+//            containsSymbol = true;
+//            break;
+//        }
+//    }
+//}
+//if (containsSymbol && containsNum && enoughLength)
+//{
+//    Console.WriteLine("Password is correct");
+//}
+//else
+//{
+//    Console.WriteLine("Password is incorrect");
+//}
 
 
 
@@ -121,8 +155,21 @@
 //Console.WriteLine("Enter the number");
 //var input = Console.ReadLine();
 //var number = int.Parse(input);
+//var isPrime = true;
 
-//for (int i = 2; i < Math.Sqrt(number); i++)
+//for (int i = 2; i < number; i++)
 //{
-//    if ()
+//    if (number % i == 0)
+//    {
+//        isPrime = false;
+//        break;
+//    }
+//}
+//if(isPrime)
+//{
+//    Console.WriteLine($"Number {number} is prime");
+//}
+//else
+//{
+//    Console.WriteLine($"Number {number} is not prime");
 //}
