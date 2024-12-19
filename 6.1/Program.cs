@@ -73,8 +73,8 @@
 //var containsNum = false;
 //var containsSymbol = false;
 //var enoughLength = input.Length >= 8;
-//var numbers = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
-//var symbols = new char[] { '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '/','|', '<', '>', ',', '.', ';', ':', '"', '{', '}', '[', ']' };
+//var numbers = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+//var symbols = new char[] { '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '/', '|', '<', '>', ',', '.', ';', ':', '"', '{', '}', '[', ']' };
 //for (int i = 0; i < input.Length; i++)
 //{
 //    var character = input[i];

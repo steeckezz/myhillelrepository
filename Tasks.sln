@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.2_numberFormat", "5.2_num
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.1", "6.1\6.1.csproj", "{DBE696B5-D19A-4204-A226-383194254B02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1", "8.1\8.1.csproj", "{B63FF816-513D-4AA7-85A2-8AA430076EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.1", "8.1\8.1.csproj", "{B63FF816-513D-4AA7-85A2-8AA430076EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10", "10\10.csproj", "{2F8ACDB1-16A7-4EBF-B6BD-8CCA280C6B4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B63FF816-513D-4AA7-85A2-8AA430076EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B63FF816-513D-4AA7-85A2-8AA430076EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63FF816-513D-4AA7-85A2-8AA430076EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F8ACDB1-16A7-4EBF-B6BD-8CCA280C6B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F8ACDB1-16A7-4EBF-B6BD-8CCA280C6B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F8ACDB1-16A7-4EBF-B6BD-8CCA280C6B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F8ACDB1-16A7-4EBF-B6BD-8CCA280C6B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
