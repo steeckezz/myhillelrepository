@@ -19,21 +19,24 @@
 
 //using System.Text;
 //Console.WriteLine("Write the title and press Enter, then type the event");
+//StringBuilder sb = new StringBuilder();
 //while (true)
 //{
 //    DateTime dateTime = DateTime.Now;
 //    var title = Console.ReadLine();
 //    var action = Console.ReadLine();
-//    Console.WriteLine("---------------------------------");
-//    StringBuilder sb = new StringBuilder();
+//    sb.Append("---------------------------------");
+//    sb.Append("\n");
 //    sb.Append(dateTime);
 //    sb.Append(" - ");
 //    sb.Append(title);
 //    sb.Append('\n');
 //    sb.Append(action);
+//    sb.Append("\n");
+//    sb.Append("---------------------------------");
+//    sb.AppendLine();
 //    string result = sb.ToString();
 //    Console.WriteLine(result);
-//    Console.WriteLine("---------------------------------");
 //}
 
 //10.3
